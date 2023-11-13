@@ -1,0 +1,7 @@
+services:
+  app:
+    image: ghcr.io/flipstone/purescript-tools:debian-stable-purescript-0.15.12-2023-11-01-da47762
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/root/spago-test
